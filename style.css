@@ -1,0 +1,26 @@
+body {
+    min-height: 3000;
+}
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #78b2e7;
+}
+
+#projects {
+background-color: #78b2e7;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+footer {
+  height: 80px;            /* tinggi footer */
+  display: flex;           /* aktifin flex */
+  align-items: center;     /* tengah atas-bawah */
+  justify-content: center; /* tengah kiri-kanan */
+}
+
+footer p {
+  margin: 0;               /* hapus margin bawaan p */
+}
