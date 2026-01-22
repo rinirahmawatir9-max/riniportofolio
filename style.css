@@ -1,5 +1,5 @@
 body {
-    min-height: 3000;
+    min-height: 3000px;
 }
 .jumbotron {
     padding-top: 6rem;
@@ -24,3 +24,4 @@ footer {
 footer p {
   margin: 0;               /* hapus margin bawaan p */
 }
+
