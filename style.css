@@ -1,10 +1,9 @@
 body {
-    min-height: 3000px;
-    margin: 0;
+    min-height: 3000px; /* tadi kurang px */
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* biar scroll halus */
 }
 
 .jumbotron {
@@ -12,28 +11,16 @@ html {
     background-color: #78b2e7;
 }
 
-section {
-    padding-top: 7rem;
-    scroll-margin-top: 90px;
-    position: relative;
-    z-index: 1;
-}
-
-#about h2 {
-    margin-top: 1rem;
-}
-
 #projects {
     background-color: #78b2e7;
 }
 
-.navbar {
-    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+/* JARAK AMAN SAAT LONCAT KE SECTION */
+section {
+    padding-top: 5rem;
 }
 
-svg {
-    display: block;
-}
+
 
 footer {
   height: 80px;
@@ -47,9 +34,6 @@ footer p {
 }
 
 
-footer p {
-  margin: 0;               /* hapus margin bawaan p */
-}
 
 
 
